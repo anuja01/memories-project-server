@@ -9,3 +9,6 @@
 
 - using cloud database
   - https://www.mongodb.com/cloud/atlas - create free account
+
+### Code flow
+`index` -> `routes` -> `controllers` -> `models`
