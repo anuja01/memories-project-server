@@ -1,3 +1,7 @@
+### video series on youtube
+https://www.youtube.com/watch?v=ngc9gnGgUdA
+https://www.youtube.com/watch?v=aibtHnbeuio
+
 ## Memories app - MERN stack
 - Create two directories for client and server
 - `cd client`
