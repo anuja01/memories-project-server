@@ -4,6 +4,7 @@ import PostMessage from "../models/postMessage.js"; // schema
 
 export const getPosts = async (req, res) => {
     try {
+        // retrieve all posts in database (getting values from DB is asynchronous)
         const postMessages = await PostMessage.find();
         res.status(200).json(postMessages)
     } catch (error) {

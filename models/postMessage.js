@@ -18,6 +18,8 @@ const postSchema = mongoose.Schema({
     }
 })
 
+// turn the schema to a model and export 
+// can run commands such as find, delete, etc on this model when query for data.
 const PostMessage = mongoose.model('PostMessage', postSchema);
 
 export default PostMessage;
